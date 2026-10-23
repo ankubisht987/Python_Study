@@ -1,0 +1,110 @@
+# =============================================================================
+# GitHub .gitignore — Python project (D:\python)
+# Everything here should NOT be uploaded to GitHub
+# =============================================================================
+
+# --- Python bytecode / compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+.venv.env
+.python-version
+
+# --- Environment variables / secrets ---
+.env
+.env.local
+.env.*.local
+.flaskenv
+
+# --- IDE / editor artifacts ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Testing / coverage / type checking ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.hypothesis/
+
+# --- Packaging / distribution ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# --- Frameworks / extras ---
+instance/
+*.mo
+node_modules/
+
+
+
+# Environment files containing API keys
+.env
+.env.*
+!.env.example
+
+# Google Cloud service-account credentials
+*service-account*.json
+*service_account*.json
+credentials.json
+
+# Secret and local configuration files
+secrets/
+*.pem
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+
+.env
+.env.*
+!.env.example
+
+*service-account*.json
+*service_account*.json
+credentials.json
+
+secrets/
+*.pem
+*.key
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
