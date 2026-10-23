@@ -10,7 +10,7 @@ from langchain_classic.agents import create_react_agent, AgentExecutor
 
 load_dotenv()
 
-GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY"),
 TAVILY_API_KEY=os.getenv("TAVILY_API_KEY")
 
 search_tool = TavilySearchResults(max_result=3)
