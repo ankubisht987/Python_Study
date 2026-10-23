@@ -6,7 +6,7 @@ app = FastAPI()
 
 # 🔐 Initialize the Gemini client
 client = OpenAI(
-    api_key=
+    api_key=os.getenv("OPENROUTER_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
